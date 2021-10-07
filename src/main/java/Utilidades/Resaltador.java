@@ -57,7 +57,7 @@ public class Resaltador {
     }
 
     private void Colorear(int PosI, int PosF) {
-        DefaultHighlighter.DefaultHighlightPainter highlightPainter = new DefaultHighlighter.DefaultHighlightPainter(Color.RED);
+        DefaultHighlighter.DefaultHighlightPainter highlightPainter = new DefaultHighlighter.DefaultHighlightPainter(Color.cyan);
         try {
             Resaltador.addHighlight(PosI, PosF, highlightPainter);
         } catch (BadLocationException ex) {
